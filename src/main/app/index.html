@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-app="myApp">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -15,7 +15,9 @@
       <h1>AngularJS Starter Project</h1>
     </header>
 
-    <section id="main"></section>
+    <section id="main" ng-controller="GreetingController">
+      <span ng-bind="greeting" />
+    </section>
 
     <footer id="footer">
       &copy; LeanStacks

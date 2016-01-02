@@ -18,7 +18,11 @@ Each episode of the Angular Fundamentals video series has a corresponding branch
 
 #### project-1
 
-The branch named `project-1` contains the source code illustrated in the episode [Creating an AngularJS Reusable Project Structure - Part 1](https://youtu.be/IeGv_hz2H5U?list=PLGDwUiT1wr696cif6lV8V4-HKGbDzR7iZ).
+The branch named `project-1` contains the source code illustrated in the episode [Creating an AngularJS Reusable Project Structure - Part One](https://youtu.be/IeGv_hz2H5U?list=PLGDwUiT1wr696cif6lV8V4-HKGbDzR7iZ).
+
+#### project-2
+
+The branch named `project-2` contains the source code illustrated in the episode [Creating an AngularJS Reusable Project Structure - Part Two](https://youtu.be/mJoNJJn69wg?list=PLGDwUiT1wr696cif6lV8V4-HKGbDzR7iZ).
 
 
 ## Languages
