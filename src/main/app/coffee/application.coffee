@@ -3,7 +3,9 @@
 myApp = angular.module 'myApp', [
   'myControllers',
   'myServices',
-  'ngRoute'
+  'ngRoute',
+  'ngAnimate',
+  'mgcrea.ngStrap'
 ]
 
 # Configure the ngRoute Module

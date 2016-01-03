@@ -48,6 +48,10 @@ The branch named `bootstrap-css` contains the source code illustrated in the epi
 
 The branch named `ng-route` contains the source code illustrated in the episode [Creating Parameterized Routes with the AngularJS ngRoute Module](https://youtu.be/zQguioTdaV8?list=PLGDwUiT1wr696cif6lV8V4-HKGbDzR7iZ).
 
+#### angularstrap
+
+The branch named `angularstrap` contains the source code illustrated in the episode [Using AngularStrap with Bootstrap, Angular Animate, and AngularJS](https://youtu.be/ovvPWtY6cB0?list=PLGDwUiT1wr696cif6lV8V4-HKGbDzR7iZ).
+
 
 ## Languages
 

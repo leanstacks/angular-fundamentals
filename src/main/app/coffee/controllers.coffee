@@ -9,6 +9,8 @@ myControllers.controller 'GreetingListController', ['$scope', 'Greeting'
 
     $scope.greetingSort = 'text'
 
+    $scope.greetingInfoClass = 'text-muted'
+
 ]
 
 # Define the GreetingDetail Controller
