@@ -32,6 +32,10 @@ The branch named `ng-include` contains the source code illustrated in the episod
 
 The branch named `ng-repeat` contains the source code illustrated in the episode [Using the AngularJS ngRepeat Directive with Filtering and Sorting](https://youtu.be/Louuqxfv-ec?list=PLGDwUiT1wr696cif6lV8V4-HKGbDzR7iZ).
 
+#### http-service
+
+The branch named `http-service` contains the source code illustrated in the episode [AngularJS Dependency Injection and Using the $http Service to GET Data](https://youtu.be/GSAR9R9TUC0?list=PLGDwUiT1wr696cif6lV8V4-HKGbDzR7iZ).
+
 
 ## Languages
 
