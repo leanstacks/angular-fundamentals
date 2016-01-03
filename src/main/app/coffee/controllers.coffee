@@ -7,7 +7,22 @@ myControllers = angular.module 'myControllers', []
 myControllers.controller 'GreetingController', ['$scope',
   ($scope) ->
 
-    $scope.greeting = 'Hello World!'
+    $scope.greetings = [
+      id: 1
+      text: 'Hello World!'
+      lang: 'en'
+    ,
+      id: 2
+      text: 'Hola Mundo!'
+      lang: 'es'
+    ,
+      id: 3
+      text: 'Bonjour Le Monde!'
+      lang: 'fr'
+    ]
+
+    $scope.greetingSort = 'text'
+    
 ]
 
 # Define the HeaderController Controller

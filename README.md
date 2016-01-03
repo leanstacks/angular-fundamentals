@@ -28,6 +28,10 @@ The branch named `project-2` contains the source code illustrated in the episode
 
 The branch named `ng-include` contains the source code illustrated in the episode [Using HTML Templates with the AngularJS ngInclude Directive](https://youtu.be/KtrUCmTxeXk?list=PLGDwUiT1wr696cif6lV8V4-HKGbDzR7iZ).
 
+#### ng-repeat
+
+The branch named `ng-repeat` contains the source code illustrated in the episode [Using the AngularJS ngRepeat Directive with Filtering and Sorting](https://youtu.be/Louuqxfv-ec?list=PLGDwUiT1wr696cif6lV8V4-HKGbDzR7iZ).
+
 
 ## Languages
 

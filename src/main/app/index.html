@@ -14,7 +14,24 @@
     <header id="header" ng-include="'assets/app/partials/header.html'" ng-controller="HeaderController"></header>
 
     <section id="main" ng-controller="GreetingController">
-      <span ng-bind="greeting" />
+
+      <div>
+        <label for="greeting-sort">Sort:</label>
+        <select id="greeting-sort" ng-model="greetingSort">
+          <option value="text">Alphabetical</option>
+          <option value="lang">Language</option>
+        </select>
+      </div>
+
+      <div>
+        <label for="greeting-filter">Filter:</label>
+        <input type="text" id="greeting-filter" placeholder="type to filter list" ng-model="greetingFilter" />
+      </div>
+
+      <ul>
+        <li ng-repeat="greeting in greetings | filter:greetingFilter | orderBy:greetingSort">{{greeting.lang}}: {{greeting.text}}</li>
+      </ul>
+
     </section>
 
     <footer id="footer" ng-include="'assets/app/partials/footer.html'" ng-controller="FooterController"></footer>
