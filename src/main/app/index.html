@@ -7,38 +7,22 @@
     <meta name="description" content="An AngularJS project skeleton authored in CoffeeScript with Angular, jQuery, Bootstrap, AngularStrap, and Karma.">
     <title>LeanStacks | AngularJS SPA Demo Project</title>
 
+    <link href="assets/lib/bootstrap-3.3.6/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/lib/font-awesome-4.5.0/css/font-awesome.min.css" rel="stylesheet">
     <link href="assets/app/css/app.css" rel="stylesheet">
   </head>
   <body>
 
     <header id="header" ng-include="'assets/app/partials/header.html'" ng-controller="HeaderController"></header>
 
-    <section id="main" ng-controller="GreetingController">
-
-      <div>
-        <label for="greeting-sort">Sort:</label>
-        <select id="greeting-sort" ng-model="greetingSort">
-          <option value="text">Alphabetical</option>
-          <option value="lang">Language</option>
-        </select>
-      </div>
-
-      <div>
-        <label for="greeting-filter">Filter:</label>
-        <input type="text" id="greeting-filter" placeholder="type to filter list" ng-model="greetingFilter" />
-      </div>
-
-      <ul>
-        <li ng-repeat="greeting in greetings | filter:greetingFilter | orderBy:greetingSort">{{greeting.lang}}: {{greeting.text}}</li>
-      </ul>
-
-    </section>
+    <section id="main" ng-include="'assets/app/partials/greeting-list.html'" ng-controller="GreetingController"></section>
 
     <footer id="footer" ng-include="'assets/app/partials/footer.html'" ng-controller="FooterController"></footer>
 
     <script src="assets/lib/jquery-2.1.4.min.js"></script>
     <script src="assets/lib/angular-1.4.8.min.js"></script>
     <script src="assets/lib/angular-resource-1.4.8.min.js"></script>
+    <script src="assets/lib/bootstrap-3.3.6/js/bootstrap.min.js"></script>
     <script src="assets/app/js/app-0.1.0.min.js"></script>
 
   </body>

@@ -40,6 +40,10 @@ The branch named `http-service` contains the source code illustrated in the epis
 
 The branch named `ng-resource` contains the source code illustrated in the episode [Creating Custom AngularJS Services and Using the ngResource Module](https://youtu.be/wswMCtIrChI?list=PLGDwUiT1wr696cif6lV8V4-HKGbDzR7iZ).
 
+#### bootstrap-css
+
+The branch named `bootstrap-css` contains the source code illustrated in the episode [Using the Bootstrap and Font Awesome Frameworks with AngularJS](https://youtu.be/pvn35slQu24?list=PLGDwUiT1wr696cif6lV8V4-HKGbDzR7iZ).
+
 
 ## Languages
 

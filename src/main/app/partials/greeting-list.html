@@ -1,0 +1,46 @@
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-12">
+      <div class="page-header">
+        <h1>
+          <i class="fa fa-list text-primary"></i> Greeting List
+        </h1>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-3 col-md-offset-6">
+      <div class="btn-group pull-right" role="group" aria-label="Sort Greetings">
+        <button type="button" ng-click="greetingSort='text'" class="btn btn-default" ng-class="{active: greetingSort==='text'}"><i class="fa fa-fw fa-sort-alpha-asc"></i></button>
+        <button type="button" ng-click="greetingSort='lang'" class="btn btn-default" ng-class="{active: greetingSort==='lang'}"><i class="fa fa-fw fa-language"></i></button>
+      </div>
+    </div>
+
+    <div class="col-md-3">
+      <div class="input-group">
+        <span class="input-group-addon" id="filter-addon"><i class="fa fa-filter"></i></span>
+        <input type="text" id="greeting-filter" class="form-control input-sm" aria-describedby="filter-addon" placeholder="type to filter list" ng-model="greetingFilter" />
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-12">
+      <table class="table">
+        <thead>
+          <tr>
+            <th>Greeting</th>
+            <th>Language</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr ng-repeat="greeting in greetings | filter:greetingFilter | orderBy:greetingSort">
+            <td>{{greeting.text}}</td>
+            <td>{{greeting.lang}}</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
