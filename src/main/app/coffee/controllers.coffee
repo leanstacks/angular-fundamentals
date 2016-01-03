@@ -1,10 +1,8 @@
 # Define the Application Controllers Module
-
 myControllers = angular.module 'myControllers', []
 
-# Define the GreetingController Controller
-
-myControllers.controller 'GreetingController', ['$scope', 'Greeting'
+# Define the GreetingListController Controller
+myControllers.controller 'GreetingListController', ['$scope', 'Greeting'
   ($scope, Greeting) ->
 
     $scope.greetings = Greeting.query()
@@ -13,8 +11,15 @@ myControllers.controller 'GreetingController', ['$scope', 'Greeting'
 
 ]
 
-# Define the HeaderController Controller
+# Define the GreetingDetail Controller
+myControllers.controller 'GreetingDetailController', ['$scope', '$routeParams', 'Greeting',
+  ($scope, $routeParams, Greeting) ->
 
+    $scope.greeting = Greeting.get {greetingId: $routeParams.greetingId}
+
+]
+
+# Define the HeaderController Controller
 myControllers.controller 'HeaderController', ['$scope',
   ($scope) ->
 
@@ -23,7 +28,6 @@ myControllers.controller 'HeaderController', ['$scope',
 ]
 
 # Define the FooterController Controller
-
 myControllers.controller 'FooterController', ['$scope',
   ($scope) ->
 

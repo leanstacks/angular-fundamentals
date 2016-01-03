@@ -44,6 +44,10 @@ The branch named `ng-resource` contains the source code illustrated in the episo
 
 The branch named `bootstrap-css` contains the source code illustrated in the episode [Using the Bootstrap and Font Awesome Frameworks with AngularJS](https://youtu.be/pvn35slQu24?list=PLGDwUiT1wr696cif6lV8V4-HKGbDzR7iZ).
 
+#### ng-route
+
+The branch named `ng-route` contains the source code illustrated in the episode [Creating Parameterized Routes with the AngularJS ngRoute Module](https://youtu.be/zQguioTdaV8?list=PLGDwUiT1wr696cif6lV8V4-HKGbDzR7iZ).
+
 
 ## Languages
 
