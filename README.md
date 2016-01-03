@@ -36,6 +36,10 @@ The branch named `ng-repeat` contains the source code illustrated in the episode
 
 The branch named `http-service` contains the source code illustrated in the episode [AngularJS Dependency Injection and Using the $http Service to GET Data](https://youtu.be/GSAR9R9TUC0?list=PLGDwUiT1wr696cif6lV8V4-HKGbDzR7iZ).
 
+#### ng-resource
+
+The branch named `ng-resource` contains the source code illustrated in the episode [Creating Custom AngularJS Services and Using the ngResource Module](https://youtu.be/wswMCtIrChI?list=PLGDwUiT1wr696cif6lV8V4-HKGbDzR7iZ).
+
 
 ## Languages
 
