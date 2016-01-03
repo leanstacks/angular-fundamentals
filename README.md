@@ -24,6 +24,10 @@ The branch named `project-1` contains the source code illustrated in the episode
 
 The branch named `project-2` contains the source code illustrated in the episode [Creating an AngularJS Reusable Project Structure - Part Two](https://youtu.be/mJoNJJn69wg?list=PLGDwUiT1wr696cif6lV8V4-HKGbDzR7iZ).
 
+#### ng-include
+
+The branch named `ng-include` contains the source code illustrated in the episode [Using HTML Templates with the AngularJS ngInclude Directive](https://youtu.be/KtrUCmTxeXk?list=PLGDwUiT1wr696cif6lV8V4-HKGbDzR7iZ).
+
 
 ## Languages
 

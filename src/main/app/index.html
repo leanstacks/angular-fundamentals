@@ -11,17 +11,13 @@
   </head>
   <body>
 
-    <header id="header">
-      <h1>AngularJS Starter Project</h1>
-    </header>
+    <header id="header" ng-include="'assets/app/partials/header.html'" ng-controller="HeaderController"></header>
 
     <section id="main" ng-controller="GreetingController">
       <span ng-bind="greeting" />
     </section>
 
-    <footer id="footer">
-      &copy; LeanStacks
-    </footer>
+    <footer id="footer" ng-include="'assets/app/partials/footer.html'" ng-controller="FooterController"></footer>
 
     <script src="assets/lib/jquery-2.1.4.min.js"></script>
     <script src="assets/lib/angular-1.4.8.min.js"></script>
